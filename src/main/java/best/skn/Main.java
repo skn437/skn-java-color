@@ -1,15 +1,14 @@
 package best.skn;
 
-//? Java::Source
-import best.skn.utils.Color;
+import best.skn.utils.color.Color;
 
 /**
- * Main Class for this Java Library
+ * Main Class for skn package
  *
  * @author SKN
  * @version 1.0.0
  * @since 26-02-2024
- * @dedicated.to Trina, Logno And Atoshi
+ * @dedicated.to Trina, Logno and Atoshi
  */
 public class Main {
 
@@ -22,9 +21,7 @@ public class Main {
   public static void main(String[] args) {
     System.out.printf(
       "%s \n",
-      Color.blue(
-        "Hello! I Am Wang So/SKN! Welcome To My Java Color Library. 👋"
-      )
+      Color.blue("Hello! I Am Wang So/SKN! Welcome To My Java Library. 👋")
     );
   }
 }

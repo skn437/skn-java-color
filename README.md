@@ -16,9 +16,25 @@
 
 ### I made this library so that I can use it in all of my java projects without writing the same codes over and over again
 
-### The main Class API of this library is `Color` which holds 16 static methods for 8 different colors
+### The main API Class of this library is `Color` which holds 16 static methods for 8 different colors
 
-### Available colors are: `Black, Red, Green, Yellow, Blue, Purple, Cyan & White`. Each has its bold variant
+&nbsp;
+
+## **_Details:_**
+
+### **`Color` Class:**
+
+- It doesn't need to be instantiated
+- It has 16 static methods for 8 different colors
+- The colors are:
+  - Black
+  - Red
+  - Green
+  - Yellow
+  - Blue
+  - Purple
+  - Cyan
+  - White
 
 &nbsp;
 
@@ -37,7 +53,7 @@
 > <dependency>
 >  <groupId>best.skn</groupId>
 >  <artifactId>skn-java-color</artifactId>
->  <version>1.0.0</version>
+>  <version>1.1.0</version>
 > </dependency>
 > ```
 
@@ -50,7 +66,7 @@
 ### Inside your Java Code, import the package like this
 
 > ```java
-> import best.skn.utils.Color;
+> import best.skn.utils.color.Color;
 > ```
 
 ### For instructions for `Gradle` & others: Visit [Maven Central](https://central.sonatype.com/artifact/best.skn/skn-java-color)

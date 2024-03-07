@@ -6,11 +6,11 @@
 
   <groupId>best.skn</groupId>
   <artifactId>skn-java-color</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <packaging>jar</packaging>
 
   <name>skn-java-color</name>
-  <description>A simple color library for Java</description>
+  <description>A Simple Color Library For Java</description>
   <url>https://github.com/skn437/skn-java-color</url>
 
   <properties>
@@ -42,15 +42,6 @@
     <url>http://github.com/skn437/skn-java-color/tree/master</url>
   </scm>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
@@ -62,6 +53,15 @@
       <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
