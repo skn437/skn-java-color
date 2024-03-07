@@ -1,4 +1,4 @@
-package best.skn.utils;
+package best.skn.utils.color;
 
 /**
  * Color Class as main API for the library
@@ -8,9 +8,9 @@ package best.skn.utils;
  * </div>
  *
  * @author SKN
- * @version 1.0.0
- * @since 26-02-2024
- * @dedicated.to Trina, Logno And Atoshi
+ * @version 1.1.0
+ * @since 07-03-2024
+ * @dedicated.to Trina, Logno and Atoshi
  */
 public class Color {
 
@@ -19,7 +19,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Black
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String black(String text) {
     return String.format(
@@ -35,7 +35,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold Black
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String blackBold(String text) {
     return String.format(
@@ -51,7 +51,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Red
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String red(String text) {
     return String.format(
@@ -67,7 +67,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold Red
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String redBold(String text) {
     return String.format(
@@ -83,7 +83,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Green
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String green(String text) {
     return String.format(
@@ -99,7 +99,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold Green
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String greenBold(String text) {
     return String.format(
@@ -115,7 +115,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Yellow
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String yellow(String text) {
     return String.format(
@@ -131,7 +131,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold Yellow
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String yellowBold(String text) {
     return String.format(
@@ -147,7 +147,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Blue
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String blue(String text) {
     return String.format(
@@ -163,7 +163,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold Blue
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String blueBold(String text) {
     return String.format(
@@ -179,7 +179,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Purple
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String purple(String text) {
     return String.format(
@@ -195,7 +195,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold Purple
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String purpleBold(String text) {
     return String.format(
@@ -211,7 +211,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Cyan
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String cyan(String text) {
     return String.format(
@@ -227,7 +227,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold Cyan
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String cyanBold(String text) {
     return String.format(
@@ -243,7 +243,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is White
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String white(String text) {
     return String.format(
@@ -259,7 +259,7 @@ public class Color {
    *
    * @param text a String as parameter
    * @return a String with colored output which is Bold White
-   * @since v1.0.0
+   * @since v1.1.0
    */
   public static String whiteBold(String text) {
     return String.format(

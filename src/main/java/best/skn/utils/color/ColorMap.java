@@ -1,4 +1,4 @@
-package best.skn.utils;
+package best.skn.utils.color;
 
 //? Java::Library
 import java.util.HashMap;
@@ -8,16 +8,16 @@ import java.util.Map;
  * ColorMap Class for internal use in Color Class
  *
  * @author SKN
- * @version 1.0.0
- * @since 26-02-2024
- * @dedicated.to Trina, Logno And Atoshi
+ * @version 1.1.0
+ * @since 07-03-2024
+ * @dedicated.to Trina, Logno and Atoshi
  */
 public class ColorMap {
 
   /**
    * Private field to hold ASCII color codes and corresponding names
    *
-   * @since v1.0.0
+   * @since v1.1.0
    */
   private static final Map<ColorName, String> colorMap = new HashMap<>() {
     {
@@ -51,7 +51,7 @@ public class ColorMap {
    *
    * @param colorName ColorName Enum as parameter
    * @return a String holding an ASCII Color Code
-   * @since v1.0.0
+   * @since v1.1.0
    */
   protected static String getColor(ColorName colorName) {
     return colorMap.get(colorName);
