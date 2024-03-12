@@ -1,7 +1,7 @@
 package best.skn.utils.color;
 
 /**
- * Color Class as main API for the library
+ * Color Class as main API
  * <div>
  *  <p>This is the main API Class to use in order to get colored string output</p>
  *  <p>This Class has 16 methods for returning 8 different colored outputs</p>
@@ -9,7 +9,8 @@ package best.skn.utils.color;
  *
  * @author SKN
  * @version 1.1.0
- * @since 07-03-2024
+ * @since 2024-03-07
+ * @use.case Java, Java Spring Boot
  * @dedicated.to Trina, Logno and Atoshi
  */
 public class Color {

@@ -53,7 +53,7 @@
 > <dependency>
 >  <groupId>best.skn</groupId>
 >  <artifactId>skn-java-color</artifactId>
->  <version>1.1.0</version>
+>  <version>1.1.1</version>
 > </dependency>
 > ```
 
@@ -75,5 +75,5 @@
 
 ## **_Dedicated To:_**
 
-- 🌹`Tanjila Hasan Trina`: The one & only love of my life. She is the reason my life got a meaning. I'm really blessed that she came into my life.
+- 🌹`Tanjila Hasan Trina`: The one & only love of my life. She is the reason my life got a meaning. I'm really blessed that she came into my life. She died on 16 November, 2022. But my heart always feels her presence in every step of my life.
 - 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I can't thank them enough for always treasuring me a lot.

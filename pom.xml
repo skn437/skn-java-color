@@ -6,7 +6,7 @@
 
   <groupId>best.skn</groupId>
   <artifactId>skn-java-color</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <packaging>jar</packaging>
 
   <name>skn-java-color</name>
@@ -88,13 +88,6 @@
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.3.0</version>
-        <configuration>
-          <archive>
-            <manifest>
-              <mainClass>best.skn.Main</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
       </plugin>
 
       <plugin>
@@ -157,6 +150,12 @@
 
           <tags>
             <tag>
+              <name>use.case</name>
+              <placement>a</placement>
+              <head>Use Case:</head>
+            </tag>
+
+            <tag>
               <name>dedicated.to</name>
               <placement>a</placement>
               <head>Dedicated To:</head>
@@ -168,7 +167,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
-        <version>3.1.0</version>
+        <version>3.2.0</version>
 
         <executions>
           <execution>

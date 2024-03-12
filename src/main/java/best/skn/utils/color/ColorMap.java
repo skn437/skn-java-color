@@ -9,7 +9,8 @@ import java.util.Map;
  *
  * @author SKN
  * @version 1.1.0
- * @since 07-03-2024
+ * @since 2024-03-07
+ * @use.case Java, Java Spring Boot
  * @dedicated.to Trina, Logno and Atoshi
  */
 public class ColorMap {
