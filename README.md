@@ -82,5 +82,5 @@
 
 ## **_Dedicated To:_**
 
-- 🌹`Tanjila Hasan Trina`: The one & only love of my life. She is the reason my life got a meaning. I'm really blessed that she came into my life. She died on 16 November, 2022. But my heart always feels her presence in every step of my life.
+- 🌹`Tanjila Hasan Trina`: The one & only love of my life. She is the reason my life got a meaning. I'm really blessed that she came into my life.
 - 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I can't thank them enough for always treasuring me a lot.
