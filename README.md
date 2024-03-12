@@ -38,6 +38,13 @@
 
 &nbsp;
 
+## **_Use Case:_**
+
+- Java
+- Java Spring Boot
+
+&nbsp;
+
 ## **_Requirements:_**
 
 - 💀 Minimum Java Version: `21`
