@@ -82,5 +82,5 @@
 
 ## **_Dedicated To:_**
 
-- 🌹`Tanjila Hasan Trina`: The one & only love of my life. She is the reason my life got a meaning. I'm really blessed that she came into my life. She is no more now but each and every step of my life, my heart feels her presence always.
+- 🌹`Tanjila Hasan Trina`: The one & only love of my life. She is the reason my life got a meaning. I'm really blessed that she came into my life. Though we are not present in the same place, but my heart feels her presence always. No other girl can replace her place in my life ever, it's a promise to myself and I know it.
 - 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I can't thank them enough for always treasuring me a lot.
