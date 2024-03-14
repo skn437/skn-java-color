@@ -8,10 +8,10 @@ package best.skn.utils.color;
  * </div>
  *
  * @author SKN
- * @version 1.1.0
+ * @version 1.1.2
  * @since 2024-03-07
  * @use.case Java, Java Spring Boot
- * @dedicated.to Trina, Logno and Atoshi
+ * @dedicated.to Trina, Logno, Atoshi and My Parents
  */
 public class Color {
 
