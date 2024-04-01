@@ -60,7 +60,7 @@
 > <dependency>
 >  <groupId>best.skn</groupId>
 >  <artifactId>skn-java-color</artifactId>
->  <version>1.1.2</version>
+>  <version>1.1.3</version>
 > </dependency>
 > ```
 
@@ -82,5 +82,5 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I can't thank them enough for always treasuring me a lot.
-- 💯`My Father & Mother`: The greatest treasures of my life ever.
+- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I can't thank them enough for always treasuring me a lot. I am lucky that I met with these two amazing ladies. They have two special places in my heart and no other girl can ever replace them.
+- 💯`My Parents`: The greatest treasures of my life ever.
