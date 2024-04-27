@@ -1,0 +1,32 @@
+# EditorConfig is awesome:http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Don't use tabs for indentation.
+[*]
+indent_style = tab
+end_of_line = lf
+insert_final_newline = true
+# (Please don't specify an indent_size here; that has too many unintended consequences.)
+
+# Java files
+[*.java]
+indent_size = 2
+
+# Xml files
+[*.xml]
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_size = 2
+
+# YAML files
+[*.yaml]
+indent_style = space
+indent_size = 2
+
+# Shell Script files
+[*.sh]
+indent_size = 2
