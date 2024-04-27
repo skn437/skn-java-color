@@ -1,9 +1,9 @@
 /**
- * Utility Package
+ * Utils Package
  *
  * @author SKN
- * @version 1.1.3
- * @since 2024-02-26
+ * @version 1.2.0
+ * @since 2024-05-27
  * @use.case Java, Java Spring Boot
  * @dedicated.to Logno, Atoshi and My Parents
  */

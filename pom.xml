@@ -1,201 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>best.skn</groupId>
-  <artifactId>skn-java-color</artifactId>
-  <version>1.1.3</version>
-  <packaging>jar</packaging>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.5</version>
+		<relativePath/>
+		<!-- lookup parent from repository -->
+	</parent>
 
-  <name>skn-java-color</name>
-  <description>A Simple Color Library For Java</description>
-  <url>https://github.com/skn437/skn-java-color</url>
+	<groupId>best.skn</groupId>
+	<artifactId>skn-java-color</artifactId>
+	<version>1.2.0</version>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>21</java.version>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
-  </properties>
+	<name>SKN Java Color</name>
+	<description>A Simple Color Library For Java</description>
+	<url>https://github.com/skn437/skn-java-color</url>
 
-  <licenses>
-    <license>
-      <name>The Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    </license>
-  </licenses>
+	<properties>
+		<java.version>21</java.version>
+	</properties>
 
-  <developers>
-    <developer>
-      <name>SKN Shukhan</name>
-      <email>skn437physx@gmail.com</email>
-      <organization>best.skn</organization>
-      <organizationUrl>https://www.skn.best</organizationUrl>
-    </developer>
-  </developers>
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
 
-  <scm>
-    <connection>scm:git:git://github.com/skn437/skn-java-color.git</connection>
-    <developerConnection>scm:git:ssh://github.com:skn437/skn-java-color.git</developerConnection>
-    <url>http://github.com/skn437/skn-java-color/tree/master</url>
-  </scm>
+	<developers>
+		<developer>
+			<name>SKN Shukhan</name>
+			<email>skn437physx@gmail.com</email>
+			<organization>best.skn</organization>
+			<organizationUrl>https://www.skn.best</organizationUrl>
+		</developer>
+	</developers>
 
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
+	<scm>
+		<connection>scm:git:git://github.com/skn437/skn-java-color.git</connection>
+		<developerConnection>scm:git:ssh://github.com:skn437/skn-java-color.git</developerConnection>
+		<url>http://github.com/skn437/skn-java-color/tree/master</url>
+	</scm>
 
-    <repository>
-      <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
 
-  <dependencies>
-    <!-- Secondary -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>5.10.2</version>
-    </dependency>
-  </dependencies>
+		<repository>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
 
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-clean-plugin</artifactId>
-        <version>3.3.2</version>
-      </plugin>
+	<dependencies>
+		<!-- Primary -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 
-      <plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>3.3.1</version>
-      </plugin>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
 
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.12.1</version>
-      </plugin>
+		<!-- Secondary -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 
-      <plugin>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.2.5</version>
-      </plugin>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
 
-      <plugin>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.3.0</version>
-      </plugin>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 
-      <plugin>
-        <artifactId>maven-install-plugin</artifactId>
-        <version>3.1.1</version>
-      </plugin>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 
-      <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>3.1.1</version>
-      </plugin>
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 
-      <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>4.0.0-M13</version>
-      </plugin>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.3.1</version>
 
-      <plugin>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.5.0</version>
-      </plugin>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-source-plugin</artifactId>
-        <version>3.3.0</version>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 
-        <executions>
-          <execution>
-            <id>attach-sources</id>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.6.3</version>
 
-            <goals>
-              <goal>jar-no-fork</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.6.3</version>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
 
-        <executions>
-          <execution>
-            <id>attach-javadocs</id>
+				<configuration>
+					<author>true</author>
+					<show>private</show>
+					<version>true</version>
 
-            <goals>
-              <goal>jar</goal>
-            </goals>
-          </execution>
-        </executions>
+					<doclint>all,-missing</doclint>
 
-        <configuration>
-          <author>true</author>
-          <show>private</show>
-          <version>true</version>
+					<tags>
+						<tag>
+							<name>use.case</name>
+							<placement>a</placement>
+							<head>Use Case:</head>
+						</tag>
 
-          <doclint>all,-missing</doclint>
+						<tag>
+							<name>dedicated.to</name>
+							<placement>a</placement>
+							<head>Dedicated To:</head>
+						</tag>
+					</tags>
+				</configuration>
+			</plugin>
 
-          <tags>
-            <tag>
-              <name>use.case</name>
-              <placement>a</placement>
-              <head>Use Case:</head>
-            </tag>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>3.2.4</version>
 
-            <tag>
-              <name>dedicated.to</name>
-              <placement>a</placement>
-              <head>Dedicated To:</head>
-            </tag>
-          </tags>
-        </configuration>
-      </plugin>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-gpg-plugin</artifactId>
-        <version>3.2.2</version>
+						<goals>
+							<goal>sign</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 
-        <executions>
-          <execution>
-            <id>sign-artifacts</id>
-            <phase>verify</phase>
+			<plugin>
+				<groupId>org.sonatype.central</groupId>
+				<artifactId>central-publishing-maven-plugin</artifactId>
+				<version>0.4.0</version>
 
-            <goals>
-              <goal>sign</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+				<extensions>true</extensions>
 
-      <plugin>
-        <groupId>org.sonatype.central</groupId>
-        <artifactId>central-publishing-maven-plugin</artifactId>
-        <version>0.4.0</version>
-
-        <extensions>true</extensions>
-
-        <configuration>
-          <publishingServerId>central</publishingServerId>
-          <tokenAuth>true</tokenAuth>
-          <waitUntil>uploaded</waitUntil>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+				<configuration>
+					<publishingServerId>central</publishingServerId>
+					<tokenAuth>true</tokenAuth>
+					<waitUntil>uploaded</waitUntil>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
