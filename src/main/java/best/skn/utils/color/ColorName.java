@@ -4,7 +4,7 @@ package best.skn.utils.color;
  * ColorName Enum for internal use in Color Class
  *
  * @author SKN
- * @version 1.2.0
+ * @version 1.3.1
  * @since 2024-03-07
  * @use.case Java, Java Spring Boot
  * @dedicated.to Logno, Atoshi and My Parents
@@ -15,101 +15,127 @@ public enum ColorName {
    *
    * @since v1.1.0
    */
-  RESET,
+  RESET("Reset"),
   /**
    * Black element
    *
    * @since v1.1.0
    */
-  BLACK,
+  BLACK("Black"),
   /**
    * Red element
    *
    * @since v1.1.0
    */
-  RED,
+  RED("Red"),
   /**
    * Green element
    *
    * @since v1.1.0
    */
-  GREEN,
+  GREEN("Green"),
   /**
    * Yellow element
    *
    * @since v1.1.0
    */
-  YELLOW,
+  YELLOW("Yellow"),
   /**
    * Blue element
    *
    * @since v1.1.0
    */
-  BLUE,
+  BLUE("Blue"),
   /**
    * Purple element
    *
    * @since v1.1.0
    */
-  PURPLE,
+  PURPLE("Purple"),
   /**
    * Cyan element
    *
    * @since v1.1.0
    */
-  CYAN,
+  CYAN("Cyan"),
   /**
    * White element
    *
    * @since v1.1.0
    */
-  WHITE,
+  WHITE("White"),
   /**
    * Bold Black element
    *
    * @since v1.1.0
    */
-  BLACK_BOLD,
+  BLACK_BOLD("Bold Black"),
   /**
    * Bold Red element
    *
    * @since v1.1.0
    */
-  RED_BOLD,
+  RED_BOLD("Bold Red"),
   /**
    * Bold Green element
    *
    * @since v1.1.0
    */
-  GREEN_BOLD,
+  GREEN_BOLD("Bold Green"),
   /**
    * Bold Yellow element
    *
    * @since v1.1.0
    */
-  YELLOW_BOLD,
+  YELLOW_BOLD("Bold Yellow"),
   /**
    * Bold Blue element
    *
    * @since v1.1.0
    */
-  BLUE_BOLD,
+  BLUE_BOLD("Bold Blue"),
   /**
    * Bold Purple element
    *
    * @since v1.1.0
    */
-  PURPLE_BOLD,
+  PURPLE_BOLD("Bold Purple"),
   /**
    * Bold Cyan element
    *
    * @since v1.1.0
    */
-  CYAN_BOLD,
+  CYAN_BOLD("Bold Cyan"),
   /**
    * Bold White element
    *
    * @since v1.1.0
    */
-  WHITE_BOLD,
+  WHITE_BOLD("Bold White");
+
+  /**
+   * Private final property for the enum element String value
+   *
+   * @since v1.3.0
+   */
+  private final String colorName;
+
+  /**
+   * Private constructor for the enum
+   *
+   * @since v1.3.0
+   */
+  private ColorName(String name) {
+    this.colorName = name;
+  }
+
+  /**
+   * Public method to get the enum element value
+   *
+   * @return a String containing the value of enum element
+   * @since v1.3.0
+   */
+  public String getName() {
+    return this.colorName;
+  }
 }

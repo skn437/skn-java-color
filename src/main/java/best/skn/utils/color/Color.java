@@ -8,7 +8,7 @@ package best.skn.utils.color;
  * </div>
  *
  * @author SKN
- * @version 1.2.0
+ * @version 1.3.1
  * @since 2024-03-07
  * @use.case Java, Java Spring Boot
  * @dedicated.to Logno, Atoshi and My Parents
@@ -269,5 +269,27 @@ public class Color {
       text,
       ColorMap.getColor(ColorName.RESET)
     );
+  }
+
+  /**
+   * Protected static method to throw Unsupported Instantiation Error
+   *
+   * @throws UnsupportedOperationException
+   * @since v1.3.0
+   */
+  protected static void ThrowInstantiationError()
+    throws UnsupportedOperationException {
+    throw new UnsupportedOperationException(
+      red("Class Instantiation is not supported!")
+    );
+  }
+
+  /**
+   * Private constructor to make the class non-instantiable
+   *
+   * @since v1.3.0
+   */
+  private Color() {
+    ThrowInstantiationError();
   }
 }

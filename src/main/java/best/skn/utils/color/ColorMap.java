@@ -8,12 +8,21 @@ import java.util.Map;
  * ColorMap Class for internal use in Color Class
  *
  * @author SKN
- * @version 1.2.0
+ * @version 1.3.1
  * @since 2024-03-07
  * @use.case Java, Java Spring Boot
  * @dedicated.to Logno, Atoshi and My Parents
  */
 public class ColorMap {
+
+  /**
+   * Private constructor to make the class non-instantiable
+   *
+   * @since v1.3.0
+   */
+  private ColorMap() {
+    Color.ThrowInstantiationError();
+  }
 
   /**
    * Private field to hold ASCII color codes and corresponding names
@@ -48,7 +57,7 @@ public class ColorMap {
   };
 
   /**
-   * Protected Method for internal use in Color Class
+   * Protected static method for internal use in Color Class
    *
    * @param colorName ColorName Enum as parameter
    * @return a String holding an ASCII Color Code
