@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Application Class
  *
- * @author SKN
- * @version 1.3.1
+ * @author SKN Shukhan
+ * @version 1.3.2
  * @since 2024-05-27
  * @use.case Java, Java Spring Boot
  * @dedicated.to Logno, Atoshi and My Parents

@@ -15,7 +15,7 @@
 
 	<groupId>best.skn</groupId>
 	<artifactId>skn-java-color</artifactId>
-	<version>1.3.1</version>
+	<version>1.3.2</version>
 
 	<name>SKN Java Color</name>
 	<description>A Simple Color Library For Java</description>
