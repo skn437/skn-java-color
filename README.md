@@ -4,7 +4,7 @@
 
 > Java
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-java-color)](https://central.sonatype.com/artifact/best.skn/skn-java-color) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-java-color/1.3.2/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-java-color/1.3.2) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-java-color)](https://central.sonatype.com/artifact/best.skn/skn-java-color) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-java-color/1.4.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-java-color/1.4.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
@@ -52,7 +52,6 @@
 ## **_Requirements:_**
 
 - 💀 Minimum Java Version: `21`
-- 💀 Minimum Maven Version: `3.9.6`
 
 &nbsp;
 
@@ -64,14 +63,14 @@
 > <dependency>
 >  <groupId>best.skn</groupId>
 >  <artifactId>skn-java-color</artifactId>
->  <version>1.3.2</version>
+>  <version>1.4.0</version>
 > </dependency>
 > ```
 
-### Write the following in the terminal
+### For `Gradle`, inside `dependencies` block of `build.gradle.kts`, copy the following
 
-> ```zsh
-> mvn install
+> ```kotlin-script
+> implementation("best.skn:skn-java-color:1.4.0")
 > ```
 
 ### Inside your Java Code, import the package like this
@@ -80,13 +79,21 @@
 > import best.skn.utils.color.Color;
 > ```
 
-### For instructions for `Gradle` & others: Visit [Maven Central](https://central.sonatype.com/artifact/best.skn/skn-java-color)
+### Use the package like this
+
+> ```java
+> public class Cat {
+>   public void createSound() {
+>     System.out.println(Color.blue("Meow!"));
+>   }
+> }
+> ```
 
 &nbsp;
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life.
+- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. My best wishes will always be with you two. May you two always be happy.
 - 💯`My Parents`: The greatest treasures of my life ever.
 
 &nbsp;

@@ -1,8 +1,6 @@
 package best.skn.utils;
 
-//? Java::Source
 import best.skn.utils.color.Color;
-//? Java::Library
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
