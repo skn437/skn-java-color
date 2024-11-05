@@ -8,7 +8,7 @@ package best.skn.utils.color;
  * </div>
  *
  * @author SKN Shukhan
- * @version 1.3.2
+ * @version 1.4.0
  * @since 2024-03-07
  * @use.case Java, Java Spring Boot
  * @dedicated.to Logno, Atoshi and My Parents
@@ -23,12 +23,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String black(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.BLACK),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.BLACK), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -39,12 +34,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String blackBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.BLACK_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.BLACK_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -55,12 +45,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String red(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.RED),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.RED), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -71,12 +56,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String redBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.RED_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.RED_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -87,12 +67,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String green(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.GREEN),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.GREEN), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -103,12 +78,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String greenBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.GREEN_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.GREEN_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -119,12 +89,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String yellow(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.YELLOW),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.YELLOW), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -135,12 +100,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String yellowBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.YELLOW_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.YELLOW_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -151,12 +111,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String blue(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.BLUE),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.BLUE), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -167,12 +122,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String blueBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.BLUE_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.BLUE_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -183,12 +133,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String purple(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.PURPLE),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.PURPLE), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -199,12 +144,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String purpleBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.PURPLE_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.PURPLE_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -215,12 +155,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String cyan(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.CYAN),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.CYAN), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -231,12 +166,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String cyanBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.CYAN_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.CYAN_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -247,12 +177,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String white(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.WHITE),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.WHITE), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -263,12 +188,7 @@ public class Color {
    * @since v1.1.0
    */
   public static String whiteBold(String text) {
-    return String.format(
-      "%s%s%s",
-      ColorMap.getColor(ColorName.WHITE_BOLD),
-      text,
-      ColorMap.getColor(ColorName.RESET)
-    );
+    return String.format("%s%s%s", ColorMap.getColor(ColorName.WHITE_BOLD), text, ColorMap.getColor(ColorName.RESET));
   }
 
   /**
@@ -277,11 +197,8 @@ public class Color {
    * @throws UnsupportedOperationException
    * @since v1.3.0
    */
-  protected static void ThrowInstantiationError()
-    throws UnsupportedOperationException {
-    throw new UnsupportedOperationException(
-      red("Class Instantiation is not supported!")
-    );
+  protected static void ThrowInstantiationError() throws UnsupportedOperationException {
+    throw new UnsupportedOperationException(red("Class Instantiation is not supported!"));
   }
 
   /**
