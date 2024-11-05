@@ -69,7 +69,7 @@
 
 ### For `Gradle`, inside `dependencies` block of `build.gradle.kts`, copy the following
 
-> ```kotlin-script
+> ```kotlin
 > implementation("best.skn:skn-java-color:1.4.0")
 > ```
 
