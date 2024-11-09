@@ -7,12 +7,12 @@ import java.util.Map;
  * ColorMap Class for internal use in Color Class
  *
  * @author SKN Shukhan
- * @version 1.4.0
+ * @version 1.5.0
  * @since 2024-03-07
  * @use.case Java, Java Spring Boot
  * @dedicated.to Logno, Atoshi and My Parents
  */
-public class ColorMap {
+class ColorMap {
 
   /**
    * Private constructor to make the class non-instantiable

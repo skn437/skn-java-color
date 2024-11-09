@@ -15,7 +15,7 @@
 
   <groupId>best.skn</groupId>
   <artifactId>skn-java-color</artifactId>
-  <version>1.4.0</version>
+  <version>1.5.0</version>
 
   <name>SKN Java Color</name>
   <description>A Simple Color Library For Java</description>
@@ -161,8 +161,10 @@
         <extensions>true</extensions>
 
         <configuration>
+          <checksums>all</checksums>
           <publishingServerId>central</publishingServerId>
-          <waitUntil>uploaded</waitUntil>
+          <waitUntil>validated</waitUntil>
+          <autoPublish>true</autoPublish>
         </configuration>
       </plugin>
     </plugins>

@@ -7,11 +7,10 @@ source "$1"
 
 mvn clean package
 
-if test -d .apidocs; then
-  rm -rf .apidocs
-  printf "Old '.apidocs' directory deleted successfully! 👍 \n"
-fi
+JAVADOC_OUTPUT=".apidocs"
 
-if test -d ./target/apidocs; then
-  cp -r ./target/apidocs ./.apidocs
-fi
+delete_directory "$JAVADOC_OUTPUT"
+
+JAVADOC_LOCATION="./target/reports/apidocs"
+
+copy_directory "$JAVADOC_LOCATION" "./$JAVADOC_OUTPUT"
