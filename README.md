@@ -95,7 +95,7 @@
 
 - 👩‍🎨`Logno` & 🧛‍♀️`Atoshi`: The two most special ladies of my life. My best wishes will always be with you two.
 - 💯`My Parents`: The greatest treasures of my life ever.
-- 👩`Trina`: The lady who resides deep inside my heart. Our paths got separated, perhaps it was fate, but you will always be in each and every moments of my life. May you be healthy and happy always.
+- 👩`Trina`: The lady who resides deep inside my heart. Our paths got separated, perhaps it was fate and I accepted it. But you are always in each and every moments of my life. May you be healthy and happy always.
 
 &nbsp;
 
