@@ -1,6 +1,6 @@
 # SKN Java Color Library
 
-<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F02-Spring%20Boot-SJC.svg?alt=media&token=7a8000ee-2708-4da8-9561-99f86e9cd8b9" alt="java" />
+<img width="150px" src="./public/color.svg" alt="java" />
 
 > Java
 
@@ -93,8 +93,9 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. My best wishes will always be with you two. May you two always be happy.
+- 👩‍🎨`Logno` & 🧛‍♀️`Atoshi`: The two most special ladies of my life. My best wishes will always be with you two.
 - 💯`My Parents`: The greatest treasures of my life ever.
+- 👩`Trina`: The lady who resides deep inside my heart. Our paths got separated, perhaps it was fate, but you will always be in each and every moments of my life. May you be healthy and happy always.
 
 &nbsp;
 
